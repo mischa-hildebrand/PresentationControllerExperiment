@@ -9,3 +9,7 @@ The issues seems to be that UIKit cannot create the connections for the outlet s
     this class is not key value coding-compliant for the key closeButton.'
 
 When you remove the outlet for the `closeButton` to the File's Owner in `DimmedPresentationView.xib` the app runs as expected without a crash. **So why can the outlet connection not be established?**
+
+## Related question on Stackoverflow:
+
+https://stackoverflow.com/q/44132407/2062785
